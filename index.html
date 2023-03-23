@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="modal.css">
+        <link rel="stylesheet" href="buttons.css">
+        <title>Modal</title>
+    </head>
+    <body>
+        <div class="modalWindow">
+            <div class="header">
+                <button class="close-btn">x</button>
+                <p class="headText">Multimedia prector options</p>
+            </div>
+            <div class="mainInf">
+                <div class="creator">
+                    <p>Produser name:</p>
+                    <input type="text" name="Pname" id="name">
+                </div>
+                <div class="basicResolution">
+                    <p>Basic Resolution: </p>
+                    <select name="format" id="format">
+                        <option value="1920">1920x1080</option>
+                        <option value="1600">1600x900</option>
+                        <option value="1280">1280x800</option>
+                    </select>
+                </div>
+                <div class="imageFormat">
+                    <p>Image Format: </p>
+                    <select name="format" id="format">
+                        <option value="16:9">16:9</option>
+                        <option value="16:10">16:10</option>
+                        <option value="4:3">4:3</option>
+                    </select>
+                </div>
+                <div class="videoInterface">
+                    <p>Video Interface: </p>
+                    <div>
+                        <input type="checkbox" id="HDMI" name="HDMI"
+                        checked>
+                        <label for="scales">HDMI</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="RCA" name="RCA">
+                        <label for="horns">RCA</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="USB" name="USB">
+                        <label for="horns">USB</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="VGA" name="VGA">
+                        <label for="horns">VGA</label>
+                    </div>
+                </div>
+                <div class="dimensions">
+                    <p>Dimensions: </p>
+                    <input type="text" name="Pname" id="name">
+                </div>
+                <div class="foto">
+                    
+                </div>
+                <div class="selectFile">
+                    <p>Select File: </p>
+                    <input type="file">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
